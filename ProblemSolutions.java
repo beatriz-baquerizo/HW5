@@ -1,7 +1,11 @@
 /******************************************************************
  *
+<<<<<<< HEAD
  *   BEATRIZ SANTOS / 002
  *
+=======
+ *   YOUR NAME / SECTION NUMBER
+>>>>>>> c84ddc0e44b544f59d7228997815a520866bc598
  *
  *   This java file contains the problem solutions of isSubSet, findKthLargest,
  *   and sort2Arrays methods. You should utilize the Java Collection Framework for
@@ -9,7 +13,10 @@
  *
  ********************************************************************/
 
+<<<<<<< HEAD
 import java.lang.reflect.Array;
+=======
+>>>>>>> c84ddc0e44b544f59d7228997815a520866bc598
 import java.util.*;
 
 class ProblemSolutions {
@@ -33,6 +40,7 @@ class ProblemSolutions {
      */
 
     public boolean isSubset(int list1[], int list2[]) {
+<<<<<<< HEAD
         // initialize to Sets
         Set<Integer> setA = new HashSet<>();
         Set<Integer> setB = new HashSet<>();
@@ -49,6 +57,10 @@ class ProblemSolutions {
         if(setA.containsAll(setB)){
             return true;
         }
+=======
+
+        // ADD YOU CODE HERE -- DON'T FORGET TO ADD YOR NAME AT TOP OF FILE
+>>>>>>> c84ddc0e44b544f59d7228997815a520866bc598
 
         return false;
     }
@@ -68,8 +80,15 @@ class ProblemSolutions {
      */
 
     public int findKthLargest(int[] array, int k) {
+<<<<<<< HEAD
         Arrays.sort(array); // O(n log n)
         return array[array.length - k]; // O(1)
+=======
+
+        // ADD YOUR CODE HERE
+
+        return 0;
+>>>>>>> c84ddc0e44b544f59d7228997815a520866bc598
     }
 
 
@@ -87,6 +106,7 @@ class ProblemSolutions {
      */
 
     public int[] sort2Arrays(int[] array1, int[] array2) {
+<<<<<<< HEAD
         // create new array, the size should be the combined length of the two arrays
         int[] combined = new int[array1.length + array2.length];
 
@@ -103,6 +123,12 @@ class ProblemSolutions {
         Arrays.sort(combined);
 
         return combined;
+=======
+
+        // ADD YOU CODE HERE
+
+        return null;
+>>>>>>> c84ddc0e44b544f59d7228997815a520866bc598
     }
 
 }

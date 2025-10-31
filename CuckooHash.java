@@ -1,12 +1,24 @@
 /******************************************************************
  *
+<<<<<<< HEAD
  *   BEATRIZ SANTOS / 002
+=======
+ *   YOUR NAME / SECTION NUMBER
+ *
+>>>>>>> c84ddc0e44b544f59d7228997815a520866bc598
  *   Note, additional comments provided throughout this source code
  *   is for educational purposes
  *
  ********************************************************************/
 
+<<<<<<< HEAD
 import java.util.*;
+=======
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+>>>>>>> c84ddc0e44b544f59d7228997815a520866bc598
 import java.lang.Math;
 
 
@@ -241,6 +253,7 @@ public class CuckooHash<K, V> {
 	 */
 
  	public void put(K key, V value) {
+<<<<<<< HEAD
 		K currentKey = key;
 		V currentValue = value;
 		int currentPos = hash1(currentKey);  // Always start with h1
@@ -283,6 +296,13 @@ public class CuckooHash<K, V> {
 		}
 		rehash();
 		put(currentKey, currentValue);
+=======
+
+		// ADD YOUR CODE HERE - DO NOT FORGET TO ADD YOUR NAME AT TOP OF FILE.
+		// Also make sure you read this method's prologue above, it should help
+		// you. Especially the two HINTS in the prologue.
+
+>>>>>>> c84ddc0e44b544f59d7228997815a520866bc598
 		return;
 	}
 
